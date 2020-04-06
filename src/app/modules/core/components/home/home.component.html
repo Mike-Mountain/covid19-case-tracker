@@ -1,7 +1,23 @@
 <section class="home flex-center">
-  <div class="card w-85 mx-auto mt-4">
-    <div class="card-content">
-
+  <div class="card w-85 mx-auto mt-4 opacity-8 has-background-dark">
+    <div class="card-content flex-end flex-align-end flex-column has-text-light">
+        <h3 class="is-size-3-desktop is-size-5-mobile has-text-right">
+          <span class="has-text-primary">{{totalCases}}</span>
+          Total cases
+        </h3>
+        <h3 class="is-size-3-desktop is-size-5-mobile has-text-right">
+          <span class="has-text-primary">{{newCases}}</span>
+          New Cases
+        </h3>
+        <h3 class="is-size-3-desktop is-size-5-mobile has-text-right">
+          <span class="has-text-primary">{{totalDeaths}}</span>
+          Deaths
+        </h3>
+        <h3 class="is-size-3-desktop is-size-5-mobile has-text-right">
+          <span class="has-text-primary">{{totalRecovered}}</span>
+          recovered
+        </h3>
+        <small class="quote mt-2">as of {{currentDate | date : 'mediumDate'}}</small>
     </div>
   </div>
 </section>

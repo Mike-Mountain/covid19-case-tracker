@@ -3001,6 +3001,14 @@ a.text-dark:focus, a.text-dark:hover {
   opacity: 1;
 }
 
+.quote {
+  border-right: 2px solid $primary;
+  border-bottom: 2px solid $primary;
+  padding-right: .3rem;
+  padding-bottom: .3rem;
+  border-radius: 4px;
+}
+
 .z-index-high {
   z-index: 20;
 }

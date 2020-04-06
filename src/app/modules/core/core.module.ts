@@ -3,6 +3,7 @@ import {CommonModule} from '@angular/common';
 import {LayoutComponent} from './components/layout/layout.component';
 import {RouterModule} from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { HomeComponent } from './components/home/home.component';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   exports: [
     LayoutComponent,
